@@ -55,6 +55,7 @@ const Title = function () {
     <p class = "video">Un algo para que se diviertan...</p>
   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Super video</a>
     </h3>
+    <p>> Hola ricardo </p>
   )
 }
 
