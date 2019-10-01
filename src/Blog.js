@@ -55,18 +55,32 @@ const Title = function () {
     <p class = "video">Un algo para que se diviertan...</p>
   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Super video</a>
     </h3>
+    <p>hola Jordi</p>
   )
 }
 
 const Data = function () {
   return (
     <p class = "datos">Aparte de ser mi primer blog, aqui hay algunos datos curiosos sobre mi persona</p>
-    <ul>
+    <ul class ="lista">
       <li class="favs">no me gusta la guayaba</li>
       <li class="favs">tampoco el mburucuya</li>
       <li class="favs">nunca puedo dormir a una hora decente...</li>
       <li class="favs">le tengo miedo a los ratones... (creo que es de familia)</li>
     </ul>
+  )
+}
+
+const Gustos = function () {
+  return (
+    <p class = "gustos">Cuando tengo tiempo libre, lo que me gusta hacer, en orden, son:</p>
+    <ol> class = "favs"
+      <li>entrenar</li>
+      <li>dormir...</li>
+      <li>cocinar</li>
+      <li>ver perliculas</li>
+      <li>etc...</li>
+    </ol>
   )
 }
 
